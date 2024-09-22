@@ -91,3 +91,21 @@ body {
   height: 210px;
   background: linear-gradient(to top, #00d9ff, #ee00ff);
 }
+
+@media screen and (max-width: 360px) {
+  .clock {
+    width: 554px;
+    height: 397px;
+  }
+  .clock::before {
+    width: 375px;
+    height: 417px;
+  }
+  .minute-hand {
+    width: 10px;
+    height: 149px;
+  }
+  .second-hand {
+    height: 174px;
+  }
+}
